@@ -36,6 +36,21 @@
 *.exe
 *.out
 *.app
+*.elf
+*.rom
+*.n64
+*.z64
+*.eeprom
+
+# Recompiler stuff
+RecompiledFuncs/
+RecompiledPatches/
+N64Recomp
+RSPRecomp
 
 # debug information files
 *.dwo
+
+# miscellaneous
+*.swp
+
