@@ -14,6 +14,25 @@
 #include "ultramodern/ultramodern.hpp"
 #include "ultramodern/config.hpp"
 
+extern "C" void __osCheckPackId_recomp(uint8_t* rdram, recomp_context* ctx) { }
+extern "C" void __osContAddressCrc_recomp(uint8_t* rdram, recomp_context* ctx) { }
+extern "C" void __osContDataCrc_recomp(uint8_t* rdram, recomp_context* ctx) { }
+extern "C" void __osContRamRead_recomp(uint8_t* rdram, recomp_context* ctx) { }
+extern "C" void __osContRamWrite_recomp(uint8_t* rdram, recomp_context* ctx) { }
+extern "C" void __osEnqueueThread_recomp(uint8_t* rdram, recomp_context* ctx) { }
+extern "C" void __osPfsRWInode_recomp(uint8_t* rdram, recomp_context* ctx) { }
+extern "C" void __osPfsSelectBank_recomp(uint8_t* rdram, recomp_context* ctx) { }
+extern "C" void __osPiCreateAccessQueue_recomp(uint8_t* rdram, recomp_context* ctx) { }
+extern "C" void __osPopThread_recomp(uint8_t* rdram, recomp_context* ctx) { }
+extern "C" void __osRepairPackId_recomp(uint8_t* rdram, recomp_context* ctx) { }
+extern "C" void __osSiGetAccess_recomp(uint8_t* rdram, recomp_context* ctx) { }
+extern "C" void __osSiRawStartDma_recomp(uint8_t* rdram, recomp_context* ctx) { }
+extern "C" void __osSiRelAccess_recomp(uint8_t* rdram, recomp_context* ctx) { }
+extern "C" void __osTimerInterrupt_recomp(uint8_t* rdram, recomp_context* ctx) { }
+extern "C" void __osViSwapContext_recomp(uint8_t* rdram, recomp_context* ctx) { }
+extern "C" void osPfsGetLabel_recomp(uint8_t* rdram, recomp_context* ctx) { }
+extern "C" void osPfsIsPlug_recomp(uint8_t* rdram, recomp_context* ctx) { }
+
 extern "C" void __osGetCause_recomp(uint8_t* rdram, recomp_context* ctx) { }
 extern "C" void osMapTLBRdb_recomp(uint8_t* rdram, recomp_context* ctx) { }
 extern "C" void osPiRawReadIo_recomp(uint8_t* rdram, recomp_context* ctx) { }

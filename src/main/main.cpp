@@ -351,7 +351,7 @@ gpr get_entrypoint_address();
 // array of supported GameEntry objects
 std::vector<recomp::GameEntry> supported_games = {
     {
-        .rom_hash = 0x887ab02583c90111ULL,
+        .rom_hash = 0x6add9906bb6eb992ULL,
         .internal_name = "SUPERMAN",
         .game_id = u8"superman64.n64.us.1.0",
         .mod_game_id = "superman64",
