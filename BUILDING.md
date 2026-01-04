@@ -70,6 +70,8 @@ Voilà! You should now have a `Superman64Recompiled` executable in the build dir
 
 > [!IMPORTANT]
 > There are a million other things you could be doing right now rather than playing Superman 64.
+> 
 > Go enjoy a walk in nature. Spend time with friends and family. Play in traffic.
+> 
 > You don't have to do this to yourself.
 
