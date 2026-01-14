@@ -6,7 +6,7 @@
 	url = https://github.com/JibbSmart/GamepadMotionHelpers.git
 [submodule "lib/N64ModernRuntime"]
 	path = lib/N64ModernRuntime
-	url = https://github.com/N64Recomp/N64ModernRuntime.git
+	url = https://github.com/gcsmith/N64ModernRuntime.git
 [submodule "lib/Superman64Decomp"]
 	path = lib/Superman64Decomp
 	url = https://github.com/gcsmith/Superman64Decomp.git
