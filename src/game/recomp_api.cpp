@@ -14,6 +14,7 @@
 #include "ultramodern/ultramodern.hpp"
 #include "ultramodern/config.hpp"
 
+extern "C" void __osViGetCurrentContext_recomp(uint8_t* rdram, recomp_context* ctx) { }
 extern "C" void __osCheckPackId_recomp(uint8_t* rdram, recomp_context* ctx) { }
 extern "C" void __osContAddressCrc_recomp(uint8_t* rdram, recomp_context* ctx) { }
 extern "C" void __osContDataCrc_recomp(uint8_t* rdram, recomp_context* ctx) { }
