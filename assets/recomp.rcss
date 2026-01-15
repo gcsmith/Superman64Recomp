@@ -1963,8 +1963,8 @@ scrollbarhorizontal sliderbar {
   position: absolute;
   top: -0;
   right: -100%;
-  bottom: -50vw;
-  left: -70vw;
+  bottom: -5vw;
+  left: -60vw;
   align-items: center;
   justify-content: flex-start;
   transform: translateX(0dp);
