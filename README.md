@@ -4,7 +4,7 @@
 ### ~~[Check out the latest release here](https://github.com/gcsmith/Superman64Recomp/releases/latest)~~ (coming soon).
 
 > [!IMPORTANT]
-> This recomp is in early development. While it is currently playable, it is unpolished and lacks some basic features (e.g., border removal, widescreen support). Until then, this project must be built from the sources and is only made public for those that are either curious or interested in contributing.
+> This recomp is in early development. While it is currently playable, it is unpolished and lacks some basic features (e.g., unlocked framerate). Until then, this project must be built from the sources and is only made public for those that are either curious or interested in contributing.
 
 Join the [N64: Recompiled Community Discord](https://discord.gg/AWZThJ4dPf) to discuss this and other N64: Recompiled projects!
 
