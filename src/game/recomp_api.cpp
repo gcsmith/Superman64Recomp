@@ -31,8 +31,6 @@ extern "C" void __osSiRawStartDma_recomp(uint8_t* rdram, recomp_context* ctx) { 
 extern "C" void __osSiRelAccess_recomp(uint8_t* rdram, recomp_context* ctx) { }
 extern "C" void __osTimerInterrupt_recomp(uint8_t* rdram, recomp_context* ctx) { }
 extern "C" void __osViSwapContext_recomp(uint8_t* rdram, recomp_context* ctx) { }
-extern "C" void osPfsGetLabel_recomp(uint8_t* rdram, recomp_context* ctx) { }
-extern "C" void osPfsIsPlug_recomp(uint8_t* rdram, recomp_context* ctx) { }
 
 extern "C" void __osGetCause_recomp(uint8_t* rdram, recomp_context* ctx) { }
 extern "C" void osMapTLBRdb_recomp(uint8_t* rdram, recomp_context* ctx) { }
