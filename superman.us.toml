@@ -15,27 +15,13 @@ stubs = [
 ignored = [
 ]
 
-# fixes a bug with the recompiler handling an Indirect tail call.
-# [[patches.instruction]]
-# func = "func_80040C54"
-# vram = 0x80040C8C
-# value = 0x03E00008 # jr $s3 -> jr $ra
+[[patches.hook]]
+func = "func_80004918"
+text = "load_overlays(ctx->r4, ctx->r5, SUB32(ctx->r10, ctx->r9));"
+before_vram = 0x80004A40
 
-# Disable SP_STATUS_REG access (memory mapped registers not supported).
-# [[patches.instruction]]
-# func = "_uvScDlistRecover"
-# vram = 0x8022B678
-# value = 0x00000000 # sw $t6, 0x10($t7) -> nop
-# 
-# Disable MFC0 register access (register index not supported).
-# [[patches.instruction]]
-# func = "func_80231A10"
-# vram = 0x80231A10
-# value = 0x00000000 # mfc0 $v0, $9 -> nop
-# 
-# Disable MTC0 register access (register index not supported).
-# [[patches.instruction]]
-# func = "func_80231A10"
-# vram = 0x80231A18
-# value = 0x00000000 # mtc0 $v0, $9 -> nop
+[[patches.hook]]
+func = "func_8001A604"
+text = "load_overlays(ctx->r4, ctx->r5, SUB32(ctx->r11, ctx->r10));"
+before_vram = 0x8001A8E4
 
