@@ -48,6 +48,9 @@ RecompiledPatches/
 N64Recomp
 RSPRecomp
 
+# Output directories
+build*/
+
 # debug information files
 *.dwo
 
