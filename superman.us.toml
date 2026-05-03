@@ -3,10 +3,13 @@
 entrypoint = 0x80000400
 # Paths are relative to the location of this config file.
 # elf_path = "superman.us.elf"
-symbols_file_path = "Superman64RecompSyms/superman.us.syms.toml"
+symbols_file_path = "lib/Superman64RecompSyms/superman.us.syms.toml"
 rom_file_path = "baserom.us.z64"
 output_func_path = "RecompiledFuncs"
 use_absolute_symbols = false
+# use_mdebug = true
+# trace_mode = true
+bss_section_suffix = "_bss"
 
 [patches]
 stubs = [
